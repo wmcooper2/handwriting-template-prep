@@ -1,0 +1,9 @@
+The steps below are the names of the notebooks that need to be run in order.
+
+Steps:
+    1. setup and convert images to jpg
+    2. rotate images to landscape
+    3. ensure pictures right-side up with template search
+    4. align the top edges of the images (Doesn't seem to work right, but maybe I don't need it anyway, or I can do this closer toward step 6 or 7?)
+    5. slice the images into 8 parts
+    6. extract individual boxes

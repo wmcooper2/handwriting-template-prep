@@ -1,0 +1,8 @@
+.DS_Store
+.git/
+.ipynb_checkpoints/
+jpg/
+major_pieces/
+rotated/
+samples/
+template_characters/
