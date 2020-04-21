@@ -6,6 +6,11 @@ Steps:
         * src images in "./samples"
         * saved in "./jpg" as grayscale images
         * images are save in a different dir!!!
+        
+        
+    ( steps 2 - 6 are swappable ???)
+    
+        
     2. rotate images to landscape
         * rotates the images in "./jpg"
         * images rotated in-place
@@ -22,7 +27,20 @@ Steps:
     6. deskew images
         * deskewing images works better on lower resolution images than the originals
         * images are deskewd in-place
-    
-    
-    5. slice the images into 8 parts
-    6. extract individual boxes
+    7. slice the images into 8 parts
+        * the 8 major sections;
+            * uppercase
+            * lowercase
+            * digits
+            * punctuation
+            * sent1
+            * sent2
+            * sent3
+            * sent4
+        * images are saved in a different dir!!!
+        * images are put in "./major_sections/" followed by their section name and file name
+            * ex: "./major_sections/uppercase/1.jpg"
+            
+            
+            
+    8. extract individual boxes
