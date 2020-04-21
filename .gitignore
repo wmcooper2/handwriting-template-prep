@@ -1,8 +1,13 @@
 .DS_Store
+.gitignore
 .git/
 .ipynb_checkpoints/
 jpg/
 major_pieces/
 rotated/
 samples/
-template_characters/
+template_characters_original_resolution/
+Z_*
+testcrop/
+resized/
+deskewd/
