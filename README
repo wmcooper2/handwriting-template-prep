@@ -1,5 +1,6 @@
-Testing out new steps is done in "SingleImageProcess/"
+Working on Batch processing in "BatchProcess"
 
+Testing out new steps is done in "SingleImageProcess/". Got this working mostly.
 
 The steps below are the names of the notebooks that need to be run in order.
 Images need to be in ".jpg" format (taken care of in step 1)
