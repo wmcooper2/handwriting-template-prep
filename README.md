@@ -1,20 +1,30 @@
-Working on Batch processing in "BatchProcess"
+# Handwriting Template Processing
+This project is the first step as part of a larger project.  
+The purpose of this step is to separate the handwritten letters and sentences into their own collections in preparation for training an image classifier later on.
 
-Testing out new steps is done in "SingleImageProcess/". Got this working mostly.
+### Operation
+Run;  
+```bash
+# start your venv
+python3 -m venv venv
+source venv/bin/activate
 
-The steps below are the names of the notebooks that need to be run in order.
-Images need to be in ".jpg" format (taken care of in step 1)
+# run the note book
+jupyter notebook
+
+# Then click on "Complete Process on Single Image.ipynb"
+# ...or on "Complete Process on Batches of Images.ipynb" for processing many images at once.
+```
+
+The steps are broken up into different files for ease of understanding.  
+The steps below are the names of the notebooks that need to be run in order.  
+Images need to be in ".jpg" format (taken care of in step 1).  
 
 Steps:
     1. setup and convert images to jpg
         * src images in "./samples"
         * saved in "./jpg" as grayscale images
         * images are save in a different dir!!!
-        
-        
-    ( steps 2 - 6 are swappable ???)
-    
-        
     2. rotate images to landscape
         * rotates the images in "./jpg"
         * images rotated in-place
@@ -44,7 +54,4 @@ Steps:
         * images are saved in a different dir!!!
         * images are put in "./major_sections/" followed by their section name and file name
             * ex: "./major_sections/uppercase/1.jpg"
-            
-            
-            
     8. extract individual boxes

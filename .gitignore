@@ -2,6 +2,7 @@
 .gitignore
 .git/
 .ipynb_checkpoints/
+venv
 jpg/
 major_pieces/
 rotated/
