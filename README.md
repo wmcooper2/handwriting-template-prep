@@ -12,8 +12,7 @@ source venv/bin/activate
 # run the note book
 jupyter notebook
 
-# Then click on "Complete Process on Single Image.ipynb"
-# ...or on "Complete Process on Batches of Images.ipynb" for processing many images at once.
+# Then click on "Complete Process on Single Image.ipynb" to run the demo notebook
 ```
 
 The steps are broken up into different files for ease of understanding.  
