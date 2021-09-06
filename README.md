@@ -2,6 +2,8 @@
 This project is the first step as part of a larger project.  
 The purpose of this step is to separate the handwritten letters and sentences into their own collections in preparation for training an image classifier later on.
 
+![Screenshot](screenshot.jpg)
+
 ### Operation
 Run;  
 ```bash
